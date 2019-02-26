@@ -29,4 +29,8 @@
         <param-value>true</param-value>
     </context-param>
 
+    <welcome-file-list> <!-- Setar a página index aqui, incluindo diretório -->
+        <welcome-file>/pages/index.xhtml</welcome-file>
+    </welcome-file-list>
+
 </web-app>

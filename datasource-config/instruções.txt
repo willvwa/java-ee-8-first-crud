@@ -1,0 +1,6 @@
+Wildfly 15 / JBoss
+1. Configurar o datasource com o conteúdo do arquivo datasource.xml desta pasta (standalone/config)
+2. Colocar o .jar no diretório de deploy do servidor de aplicação (standalone/deployments)
+3. Timezone é sempre Brazil/west no DBeaver
+4. Configurar o datasource persistence.xml no main/resources/META-INF/persistence.xml
+
