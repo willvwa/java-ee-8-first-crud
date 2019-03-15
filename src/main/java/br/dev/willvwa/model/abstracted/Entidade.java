@@ -1,4 +1,4 @@
-package br.dev.willvwa.model;
+package br.dev.willvwa.model.abstracted;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -17,7 +17,7 @@ public abstract class Entidade implements Serializable {
 
     @PrePersist //JPA
     @PreUpdate //JPA
-    public void antesAlterar() {
+    public void antesPersistir() {
 
         this.dataAtualizacao = LocalDateTime.now();
     }
