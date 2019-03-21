@@ -12,4 +12,7 @@ public class Endereco extends Entidade {
     @Column
     @NotEmpty(message = "Informe a rua!")
     private String logradouro;
+
+    @ManyToOne
+    private Pessoa pessoa;
 }

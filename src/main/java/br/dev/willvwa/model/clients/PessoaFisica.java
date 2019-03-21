@@ -1,7 +1,5 @@
 package br.dev.willvwa.model.clients;
 
-import br.dev.willvwa.model.abstracted.Entidade;
-
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.PastOrPresent;

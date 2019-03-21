@@ -8,6 +8,7 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 import java.util.List;
 
+@Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public abstract class Pessoa extends Entidade {
 
